@@ -12,26 +12,19 @@
 <?php
     ini_set('default_charset','utf-8');
 
-//session_start();
     $name_pag = isset($_POST['name_pag'])?($_POST['name_pag']):"NOME NÃO INFORMADO    ";
-//    $_SESSION['name_pag']=$name_pag;
 
     $amount   = isset($_POST['amount'  ])?($_POST['amount'  ]):"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;";
-//    $_SESSION['amount'  ]=$amount;
 
     $value_inwords = isset($_POST['value_inwords'])?($_POST['value_inwords'  ]):"VALOR NÃO INFORMADO   ";
-//    $_SESSION['value_inwords']=$value_inwords;
 
     $referent = isset($_POST['referent'])?($_POST['referent']):"  NÃO INFORMADO       ";
-//    $_SESSION['referent']=$referent;
 
     $serv_jur = isset($_POST['serv_jur'])?($_POST['serv_jur']):" NÃO INFORMADO        ";
-//    $_SESSION['serv_jur']=$serv_jur;
 
     $cidade = isset($_POST['cidade'])?($_POST['cidade']):"Cidade Não Informada";
 
     $date     = isset($_POST['date'    ])?($_POST['date'    ]):"DATA NÃO INFORMADA    ";
-//    $_SESSION['date']=$date;
 
     setlocale(LC_TIME, 'pt_BR', 'pt_BR.utf-8', 'pt_BR.utf-8', 'portuguese');
     date_default_timezone_set('America/Sao_Paulo');
@@ -64,7 +57,6 @@
                         <div class="amount" id="amount">
                             <?php 
                             echo "<b>R$ $amount</b>";
-                            //echo "<b>R$ ".number_format($amount,2,",","."). "</b>";
                             ?>
                         </div>
                     </div>
@@ -82,7 +74,6 @@
                 <div class="date" id="date">
                     <?php 
                     echo "<span class='assina'>$cidade, $date";
-                    /* strftime('%d de %B de %Y', strtotime($date)) */  /* .strftime('%d de %B de %Y', strtotime('today'))."</span>"; */
                     ?>
                 </div>
 
@@ -108,14 +99,13 @@
                 <img src="logotipo_recibo-online_vermelho_h73px.png" alt="">
             </div>
             <div class="phones" id="phones">
-                Rua Dr. Feliciano Sodré, 215 Sl 715
+                Rua Dr. Feliciano Sodré, 0000
             </div>
             <div class="phones1" id="phones1">
                 Centro - São Gonçalo - RJ 
             </div>
             <div class="phones2" id="phones2">
-                <!-- <span class="ttel">  -->
-                21.3245-6768 / 21.96412-9272 <!-- </spam> -->
+                21.3333-3333 / 21.99999-9999 <!-- </spam> -->
             </div>
         </div>
 
@@ -128,7 +118,6 @@
                         <div class="amount" id="amount">
                             <?php 
                             echo "<b>R$ $amount</b>";
-                            //echo "<b>R$ ".number_format($amount,2,",","."). "</b>";
                             ?>
                         </div>
                     </div>
@@ -146,7 +135,6 @@
                 <div class="date" id="date">
                     <?php 
                     echo "<span class='assina'>$cidade, $date";
-                    /* strftime('%d de %B de %Y', strtotime($date)) */  /* .strftime('%d de %B de %Y', strtotime('today'))."</span>"; */
                     ?>
                 </div>
 
