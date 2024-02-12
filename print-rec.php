@@ -105,7 +105,7 @@
                 Centro - São Gonçalo - RJ 
             </div>
             <div class="phones2" id="phones2">
-                21.3333-3333 / 21.99999-9999 <!-- </spam> -->
+            21.3245-6768 / 21.96412-9272 <!-- </spam> -->
             </div>
         </div>
 
