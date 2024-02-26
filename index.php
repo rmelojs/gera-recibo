@@ -16,10 +16,10 @@
     </div>
     
     <div class="container-fluid">
-        <div class="col">
+        <!-- <div class="col">
           <hr class="formTop">
           <div class="row rec">
-              <div class="col">
+              <div class="col"> -->
                   <div class="form-group">
                     <form action="print-rec.php" method="POST">
                       <div class="alert alert-primary teste" role="alert">
@@ -47,10 +47,10 @@
                         <input class="btn btn-success" type="submit" role="button" value="GERAR RECIBO">
                         </form>
                       </div>
-                  </div>                
+                  <!-- </div>                
               </div>
           </div>
-        </div>
+        </div> -->
     </div>
 <div class="footerhome">
       <hr class="homeForm">
