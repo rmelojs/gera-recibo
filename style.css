@@ -81,6 +81,10 @@ p{
     text-indent: 140px; 
     color: #000000;
 }
+
+.form-group{
+    text-align: center;
+}
 span.namePag{
     font-family: 'Times New Roman', Times, serif;
     font-size: 24px;
