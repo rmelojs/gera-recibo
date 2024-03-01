@@ -4,3 +4,9 @@ body{
     justify-content: center;
     align-items: center;
 }
+.container{
+    display: flex;
+    display-direction: column;
+    justify-content: center;
+    
+}
