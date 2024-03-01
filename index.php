@@ -19,12 +19,13 @@
       <form action="print-rec.php" method="POST">
           <h3>Preencha os dados do Recibo</h3>
             <hr>
+          <div class="field">
+            <label for="name_pag">Nome: </label>
+              <input type="text" class="form-control col-md-8" name="name_pag" id="name_pag" value="________________________________" placeholder="" autofocus="autofocus"><br>
+          </div>
 
-          <label for="name_pag">Nome: </label>
-              <input type="text" class="form-control col-md-8" name="name_pag" id="name_pag" value="________________________________" placeholder="" autofocus="autofocus">
-              
           <label for="amount">Valor: </label>
-              <input type="text" class="form-control col-md-3" name="amount" value="&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" id="amount" placeholder="" maxlength="9">
+              <input type="text" class="form-control col-md-3" name="amount" value="&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" id="amount" placeholder="" maxlength="9"><br>
 
           <label for="value_inwords">Valor por extenso: </label>
               <input type="text" class="form-control col-md-8" name="value_inwords" value="___________________________________" id="value_inwords" placeholder=""> <br>
