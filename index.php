@@ -16,7 +16,6 @@
     
     <div class="container">
       <form action="print-rec.php" method="POST">
-        <div class="alert alert-primary teste" role="alert">
           <h3>Preencha os dados do Recibo</h3>
             <hr>
           <label for="name_pag">Nome: </label>
@@ -40,7 +39,6 @@
           <hr>
           <input class="btn btn-success" type="submit" role="button" value="GERAR RECIBO">
           </form>
-        </div>
     </div>                
 
     <div class="footerhome">
