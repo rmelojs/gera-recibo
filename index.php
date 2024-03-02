@@ -9,7 +9,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="index.css">
   </head>
-  <body>
+  <body >
     <div class="titlePage">
         <h2>Recibo Online</h2>
     </div>
@@ -24,14 +24,20 @@
               <input type="text" class="form-control col-md-8" name="name_pag" id="name_pag" value="________________________________" placeholder="" autofocus="autofocus"><br>
           </div>
 
-          <label for="amount">Valor: </label>
+          <div class="field">
+            <label for="amount">Valor: </label>
               <input type="text" class="form-control col-md-3" name="amount" value="&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" id="amount" placeholder="" maxlength="9"><br>
+          </div>
 
-          <label for="value_inwords">Valor por extenso: </label>
+          <div class="field">
+            <label for="value_inwords">Valor por extenso: </label>
               <input type="text" class="form-control col-md-8" name="value_inwords" value="___________________________________" id="value_inwords" placeholder=""> <br>
+          </div>
 
-          <label for="referent">Referente a:</label>
+          <div class="field">
+            <label for="referent">Referente a:</label>
               <input type="text" class="form-control col-md-8" name="referent" value="_____________________________" id="referent" placeholder=""> <br>
+          </div>
 
           <label for="serv_jur">Serviços prestados:</label>
               <input type="text" class="form-control col-md-8" name="serv_jur" value="______________ ____________________________________" id="serv_jur" placeholder=""> <br>

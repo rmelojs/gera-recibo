@@ -6,10 +6,9 @@ body{
 }
 .container{
     display: flex;
-    display-direction: column;
+    flex-direction: column;
     justify-content: left;
-
 }
 .field{
-    margin: 20px;
+    margin: 10px 0 10px 0;
 }
