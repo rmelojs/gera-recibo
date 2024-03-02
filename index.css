@@ -3,24 +3,36 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: gray;
+    background-color: rgb(51, 100, 122);
+    color: #fff;
 }
 .container{
     display: flex;
     flex-direction: column;
     justify-content: left;
-    height: auto;
+    width: auto;
+    max-height: 700px;
+    min-width: 600px;
 }
 .field{
     margin: 15px 0 15px 0;
 }
 input{
     padding: 5px;
-    height: 20px;
+    height: 25px;
     border: 1px solid #000;
     border-radius: 10px;
     width: 300px;
 }
 .hr-bottom{
     margin-top: 30px;
+}
+button{
+    height: 40px;
+    border: 1px solid #000;
+    border-radius: 10px;
+    width: 220px;
+    font-size: 16pt;
+    background-color: blue;
+    color: #fff;margin-top: 30px;
 }

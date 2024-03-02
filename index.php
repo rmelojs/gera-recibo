@@ -54,19 +54,17 @@
               <small id="helpId"classtext-nuted>Você pode digitar a data por extenso</small>
           <br>
 
+          <button type="submit" role="button"> GERAR RECIBO </button>
+
           <hr class="hr-bottom">
 
-          <input class="btn btn-success" type="submit" role="button" value="GERAR RECIBO">
           </form>
     </div>                
 
-    <div class="footerhome">
-          <hr class="homeForm">
-          <div class="footerPageText">
-            <center>
-              <a href="https://www.carlosferreira.adv.br">www.carlosferreira.adv.br</a> <br> <a href="https://www.carlosferreira.adv.br/app/geranota">Emitir notas promissórias</a>
-            </center>
-          </div>  
+    <div class="footerPageText">
+        <a href="https://www.carlosferreira.adv.br">www.carlosferreira.adv.br</a> <br> <a href="https://www.carlosferreira.adv.br/app/geranota">Emitir notas promissórias</a>
+    </div>  
+
     </div>
   </body>
 </html>
