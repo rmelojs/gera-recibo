@@ -3,12 +3,21 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: gray;
 }
 .container{
     display: flex;
     flex-direction: column;
     justify-content: left;
+    height: auto;
 }
 .field{
-    margin: 10px 0 10px 0;
+    margin: 15px 0 10px 0;
+}
+input{
+    padding: 5px;
+    height: 20px;
+    border: 1px solid #000;
+    border-radius: 10px;
+    width: 300px;
 }
