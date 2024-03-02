@@ -12,7 +12,7 @@ body{
     height: auto;
 }
 .field{
-    margin: 15px 0 10px 0;
+    margin: 15px 0 15px 0;
 }
 input{
     padding: 5px;
@@ -20,4 +20,7 @@ input{
     border: 1px solid #000;
     border-radius: 10px;
     width: 300px;
+}
+hr{
+    margin-top: 30px;
 }

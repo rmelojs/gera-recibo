@@ -54,7 +54,7 @@
               <small id="helpId"classtext-nuted>Você pode digitar a data por extenso</small>
           <br>
 
-          <hr>
+          <hr class="hr-bottom">
 
           <input class="btn btn-success" type="submit" role="button" value="GERAR RECIBO">
           </form>
