@@ -20,36 +20,36 @@
           <h3>Preencha os dados do Recibo</h3>
             <hr>
           <div class="field">
-            <label for="name_pag">Nome: </label>
+            <label for="name_pag">Nome: </label><br>
               <input type="text" class="form-control col-md-8" name="name_pag" id="name_pag" value="________________________________" placeholder="" autofocus="autofocus"><br>
           </div>
 
           <div class="field">
-            <label for="amount">Valor: </label>
+            <label for="amount">Valor: </label><br>
               <input type="text" class="form-control col-md-3" name="amount" value="&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" id="amount" placeholder="" maxlength="9"><br>
           </div>
 
           <div class="field">
-            <label for="value_inwords">Valor por extenso: </label>
+            <label for="value_inwords">Valor por extenso: </label><br>
               <input type="text" class="form-control col-md-8" name="value_inwords" value="___________________________________" id="value_inwords" placeholder=""> <br>
           </div>
 
           <div class="field">
-            <label for="referent">Referente a:</label>
+            <label for="referent">Referente a:</label><br>
               <input type="text" class="form-control col-md-8" name="referent" value="_____________________________" id="referent" placeholder=""> <br>
           </div>
 
           <div class="field">
-            <label for="serv_jur">Serviços prestados:</label>
+            <label for="serv_jur">Serviços prestados:</label><br>
               <input type="text" class="form-control col-md-8" name="serv_jur" value="______________ ____________________________________" id="serv_jur" placeholder=""> <br>
           </div>
 
           <div class="field">
-            <label for="cidade">Cidade:</label>
+            <label for="cidade">Cidade:</label><br>
               <input type="text" class="form-control col-md-8" name="cidade" value="___________________" id="cidade" placeholder=""><br>
           </div>
 
-          <label for="date">Data:</label>
+          <label for="date">Data:</label><br>
               <input type="text" class="form-control col-md-2" name="date" id="date" value="__ de _________ de ____" placeholder="dd/mm/aaaa" maxlength="25">
               <small id="helpId"classtext-nuted>Você pode digitar a data por extenso</small>
           <br>
