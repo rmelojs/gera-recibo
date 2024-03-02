@@ -21,6 +21,6 @@ input{
     border-radius: 10px;
     width: 300px;
 }
-hr{
+.hr-bottom{
     margin-top: 30px;
 }
