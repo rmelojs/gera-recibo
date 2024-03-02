@@ -39,11 +39,15 @@
               <input type="text" class="form-control col-md-8" name="referent" value="_____________________________" id="referent" placeholder=""> <br>
           </div>
 
-          <label for="serv_jur">Serviços prestados:</label>
+          <div class="field">
+            <label for="serv_jur">Serviços prestados:</label>
               <input type="text" class="form-control col-md-8" name="serv_jur" value="______________ ____________________________________" id="serv_jur" placeholder=""> <br>
+          </div>
 
-          <label for="cidade">Cidade:</label>
+          <div class="field">
+            <label for="cidade">Cidade:</label>
               <input type="text" class="form-control col-md-8" name="cidade" value="___________________" id="cidade" placeholder=""><br>
+          </div>
 
           <label for="date">Data:</label>
               <input type="text" class="form-control col-md-2" name="date" id="date" value="__ de _________ de ____" placeholder="dd/mm/aaaa" maxlength="25">
