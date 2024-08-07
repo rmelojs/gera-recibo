@@ -1,2 +1,3 @@
-# gera-recibo
-Preencha os dados e emita um recibo pronto para impressão ou pdf. Também pode imprimir e preencher manualmente.
+# Gerador de recibo
+Gera um recibo com os dados que você fornece, pronto para impressão ou salvar em pdf. 
+Também tem a opção de imprimir para preencher manualmente.
