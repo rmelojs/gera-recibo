@@ -3,7 +3,7 @@
   <head><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <title>Recibo Online</title>
     <!-- Required meta tags -->
-
+    
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
@@ -13,7 +13,7 @@
     <div class="titlePage">
         <h2>Recibo Online</h2>
     </div>
-
+    
     <div class="container">
 
       <form action="print-rec.php" method="POST">
@@ -59,13 +59,12 @@
           <hr class="hr-bottom">
 
           </form>
-    </div>
+    </div>                
 
-    </div>
+    <div class="footerPageText">
+        <a href="https://www.carlosferreira.adv.br">www.carlosferreira.adv.br</a> <br> <a href="https://www.carlosferreira.adv.br/app/geranota">Emitir notas promissórias</a>
+    </div>  
 
-    <div class="footer">
-            <a href="https://www.carlosferreira.adv.br">www.carlosferreira.adv.br</a>
-            <a href="../geranotas/">Emitir promissórias</a>
     </div>
   </body>
 </html>
